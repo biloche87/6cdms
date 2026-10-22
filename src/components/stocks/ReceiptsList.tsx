@@ -69,7 +69,7 @@ export const ReceiptsList: React.FC<ReceiptsListProps> = ({ onOpenNewReceipt }) 
           </p>
         </div>
 
-        {user?.role === 'SALES_ADMIN_NATIONAL' && (
+        {(user?.role === 'SALES_ADMIN_NATIONAL' || user?.role === 'SALES_ADMIN') && (
           <button
             type="button"
             onClick={onOpenNewReceipt}

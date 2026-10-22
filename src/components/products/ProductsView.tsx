@@ -83,6 +83,18 @@ export const ProductsView: React.FC = () => {
 
   useEffect(() => {
     loadData();
+
+    const handleStockUpdate = () => {
+      loadData();
+    };
+
+    window.addEventListener('6c:stock-updated', handleStockUpdate);
+    window.addEventListener('6c:sale-recorded', handleStockUpdate);
+
+    return () => {
+      window.removeEventListener('6c:stock-updated', handleStockUpdate);
+      window.removeEventListener('6c:sale-recorded', handleStockUpdate);
+    };
   }, [selectedDropPoint]);
 
   const handleCreateProduct = async (e: React.FormEvent) => {

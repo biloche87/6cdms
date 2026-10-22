@@ -109,14 +109,29 @@ export const SupplyRequestModal: React.FC<SupplyRequestModalProps> = ({
         api.getDropPointStocks(user?.dropPointId).catch(() => ({ stocks: [] })),
       ])
         .then(([prodRes, stockRes]) => {
-          setProducts(prodRes.products || []);
+          const prods = prodRes.products || [];
+          setProducts(prods);
           const stockMap: Record<number, number> = {};
           if (stockRes && Array.isArray(stockRes.stocks)) {
             stockRes.stocks.forEach((s) => {
               stockMap[s.productId] = s.availableQuantity || 0;
             });
           }
+          // Fallback to product.availableStock if not present in stockRes
+          prods.forEach((p) => {
+            if (stockMap[p.id] === undefined && p.availableStock !== undefined) {
+              stockMap[p.id] = Number(p.availableStock) || 0;
+            }
+          });
           setDpStocks(stockMap);
+
+          // Refresh availableStock on draft items previously loaded from local storage
+          setValidatedItems((prev) =>
+            prev.map((it) => ({
+              ...it,
+              availableStock: stockMap[it.productId] ?? it.availableStock ?? 0,
+            }))
+          );
         })
         .catch((err) => {
           console.error(err);
@@ -674,7 +689,7 @@ export const SupplyRequestModal: React.FC<SupplyRequestModalProps> = ({
                     >
                       <option value="">-- Choisissez un produit du catalogue --</option>
                       {filteredProducts.map((p) => {
-                        const stock = dpStocks[p.id] ?? 0;
+                        const stock = dpStocks[p.id] ?? p.availableStock ?? 0;
                         return (
                           <option key={p.id} value={p.id}>
                             {p.name} [{p.categoryName || 'Catalogue'}] — Stock Dépôt : {stock} carton{stock > 1 ? 's' : ''} {stock === 0 ? '(Rupture)' : ''}

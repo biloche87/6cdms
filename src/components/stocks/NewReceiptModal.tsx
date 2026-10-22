@@ -82,7 +82,7 @@ export const NewReceiptModal: React.FC<NewReceiptModalProps> = ({
 
   if (!isOpen) return null;
 
-  if (user?.role !== 'SALES_ADMIN_NATIONAL') {
+  if (user?.role !== 'SALES_ADMIN_NATIONAL' && user?.role !== 'SALES_ADMIN') {
     return (
       <div
         onClick={onClose}

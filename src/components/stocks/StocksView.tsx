@@ -86,6 +86,20 @@ export const StocksView: React.FC = () => {
 
   useEffect(() => {
     loadStocks();
+
+    const handleStockUpdate = () => {
+      loadStocks();
+    };
+
+    window.addEventListener('6c:stock-updated', handleStockUpdate);
+    window.addEventListener('6c:sale-recorded', handleStockUpdate);
+    window.addEventListener('6c:supply-request-changed', handleStockUpdate);
+
+    return () => {
+      window.removeEventListener('6c:stock-updated', handleStockUpdate);
+      window.removeEventListener('6c:sale-recorded', handleStockUpdate);
+      window.removeEventListener('6c:supply-request-changed', handleStockUpdate);
+    };
   }, []);
 
   // Strict deduplication of VRS stocks: exactly ONE item per product
