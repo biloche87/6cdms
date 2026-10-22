@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 1,
+    "available_quantity": 6,
+    "reserved_quantity": 0,
+    "alert_threshold": 2,
+    "updated_at": "2026-10-22 02:21:39"
+  },
+  {
+    "id": 2,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 2,
+    "available_quantity": 8,
+    "reserved_quantity": 0,
+    "alert_threshold": 2,
+    "updated_at": "2026-10-22 02:21:44"
+  },
+  {
+    "id": 3,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 3,
+    "available_quantity": 6,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-13 23:38:29"
+  },
+  {
+    "id": 4,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 4,
+    "available_quantity": 4,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-13 23:38:29"
+  },
+  {
+    "id": 5,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 5,
+    "available_quantity": 0,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 13:21:00"
+  },
+  {
+    "id": 6,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 6,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 14:09:17"
+  },
+  {
+    "id": 7,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 7,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 13:59:36"
+  },
+  {
+    "id": 8,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 8,
+    "available_quantity": 3,
+    "reserved_quantity": 0,
+    "alert_threshold": 2,
+    "updated_at": "2026-10-14 00:06:51"
+  },
+  {
+    "id": 9,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 9,
+    "available_quantity": 3,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-13 23:38:29"
+  },
+  {
+    "id": 10,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 10,
+    "available_quantity": 3,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-13 23:38:29"
+  },
+  {
+    "id": 11,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 11,
+    "available_quantity": 7,
+    "reserved_quantity": 0,
+    "alert_threshold": 2,
+    "updated_at": "2026-10-22 02:21:39"
+  },
+  {
+    "id": 12,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 12,
+    "available_quantity": 6,
+    "reserved_quantity": 0,
+    "alert_threshold": 2,
+    "updated_at": "2026-10-22 02:21:44"
+  },
+  {
+    "id": 13,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 13,
+    "available_quantity": 5,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-13 23:38:29"
+  },
+  {
+    "id": 14,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 14,
+    "available_quantity": 3,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:04:35"
+  },
+  {
+    "id": 15,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 15,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 14:09:17"
+  },
+  {
+    "id": 16,
+    "vrs_id": 4,
+    "drop_point_id": 1,
+    "product_id": 16,
+    "available_quantity": 2,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-13 23:38:29"
+  },
+  {
+    "id": 32,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 1,
+    "available_quantity": 4,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 33,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 2,
+    "available_quantity": 2,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 34,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 3,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 35,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 4,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 36,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 5,
+    "available_quantity": 2,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 37,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 6,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 38,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 7,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 39,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 8,
+    "available_quantity": 2,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 40,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 9,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 41,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 10,
+    "available_quantity": 2,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 42,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 11,
+    "available_quantity": 3,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 43,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 12,
+    "available_quantity": 3,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 44,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 13,
+    "available_quantity": 2,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 45,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 14,
+    "available_quantity": 2,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 46,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 15,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 47,
+    "vrs_id": 6,
+    "drop_point_id": 2,
+    "product_id": 16,
+    "available_quantity": 1,
+    "reserved_quantity": 0,
+    "alert_threshold": 1,
+    "updated_at": "2026-10-14 11:21:55"
+  },
+  {
+    "id": 48,
+    "vrs_id": 8,
+    "drop_point_id": 3,
+    "product_id": 1,
+    "available_quantity": 50,
+    "reserved_quantity": 0,
+    "alert_threshold": 10,
+    "updated_at": "2026-10-15 07:34:44"
+  }
+]

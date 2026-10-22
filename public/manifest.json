@@ -1,0 +1,62 @@
+{
+  "id": "/",
+  "name": "6C DMS - Distribution Management System",
+  "short_name": "6C DMS",
+  "description": "Plateforme complète de gestion des ventes terrain, stocks, tournées, réceptions BL et points de vente pour la distribution.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#071526",
+  "theme_color": "#071526",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle Vente",
+      "short_name": "Vente",
+      "description": "Enregistrer une nouvelle vente client",
+      "url": "/?tab=sales&action=new",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Nouveau PDV",
+      "short_name": "Nouveau PDV",
+      "description": "Créer et géolocaliser un point de vente",
+      "url": "/?tab=pos&action=new",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Demande Appro",
+      "short_name": "Appro",
+      "description": "Faire une demande d'approvisionnement",
+      "url": "/?tab=supply-requests&action=new",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "6C DMS - Distribution Management System",
+  "description": "Plateforme complète de gestion des ventes terrain, stocks, tournées, réceptions BL et points de vente pour la distribution.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#F6F8FA" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="6C DMS" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>6C DMS - Distribution Management System</title>
+    <meta name="description" content="Plateforme complète de gestion des ventes terrain, stocks, tournées, réceptions BL et points de vente pour la distribution." />
+    <meta property="og:title" content="6C DMS - Distribution Management System" />
+    <meta property="og:description" content="Plateforme complète de gestion des ventes terrain, stocks, tournées, réceptions BL et points de vente pour la distribution." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,600&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var root = document.documentElement;
+          if (isDark) {
+            root.classList.add('dark');
+            root.setAttribute('data-theme', 'dark');
+            root.style.colorScheme = 'dark';
+          } else {
+            root.classList.remove('dark');
+            root.classList.add('light');
+            root.setAttribute('data-theme', 'light');
+            root.style.colorScheme = 'light';
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script>
+      // Gracefully ignore benign WebSocket / HMR transport errors in sandbox environment
+      window.addEventListener('error', function(event) {
+        if (event && (
+          (event.message && (event.message.includes('WebSocket') || event.message.includes('createWebSocket'))) ||
+          (event.filename && event.filename.includes('@vite/client'))
+        )) {
+          event.stopImmediatePropagation();
+        }
+      });
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event && event.reason && String(event.reason).includes('WebSocket')) {
+          event.stopImmediatePropagation();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-[var(--bg-page)] text-[var(--text-primary)] font-sans antialiased selection:bg-emerald-500 selection:text-white min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
